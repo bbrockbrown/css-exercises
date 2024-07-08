@@ -1,0 +1,11 @@
+.click {
+    background-color: rgb(0, 0, 0);
+}
+
+.no-click {
+
+}
+
+.no-click, .click {
+
+}
