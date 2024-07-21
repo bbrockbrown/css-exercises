@@ -17,12 +17,18 @@ body {
   padding: 8px;
 }
 
-.left-container, .right-container {
+.left-container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 16px;
 }
 
+.right-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
 
 
 .profile-image {

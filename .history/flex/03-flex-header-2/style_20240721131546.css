@@ -14,15 +14,20 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
-  padding: 8px;
 }
 
-.left-container, .right-container {
+.left-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-container {
   display: flex;
   align-items: center;
-  gap: 16px;
+  justify-content: space-between;
+  gap: 8px;
 }
-
 
 
 .profile-image {
@@ -54,12 +59,12 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  flex: 1 1 auto;
 }
 
 ul {
   list-style-type: none;
   display: flex;
-  gap: 16px;
-  padding: 0px;
-  margin: 0px;
+  justify-content:right;
+  gap: 8px;
 }
