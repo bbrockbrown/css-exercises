@@ -21,8 +21,6 @@ ul {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin: 0px;
-  padding: 0px;
 }
 
 a {
