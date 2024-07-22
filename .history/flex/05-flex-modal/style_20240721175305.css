@@ -17,16 +17,8 @@ body {
 
 .content {
   display: flex;
-  flex-direction: column;
   text-align: left;
-}
-
-.exit {
-  display: flex;
-  margin-top: 8px;
-  justify-content: space-between;
-  margin-right: 5px;
-  margin-bottom: 5px;
+  flex-direction: column;
 }
 
 .modal {
@@ -35,19 +27,11 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
-  padding: 16px; 
-  gap: 16px; 
+  flex-direction: column;
 }
 
 .icon-container {
   display: flex;
-  flex-shrink: 0;
-}
-
-.button-options {
-  display: flex;
-  gap: 12px;
-  margin-top: 10px;
 }
 
 .icon {
