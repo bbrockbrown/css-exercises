@@ -36,8 +36,7 @@ ul {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0;
-  margin: 0;
-  gap: 16px;
+  gap: 12px;
 }
 
 a {
