@@ -44,6 +44,8 @@ body {
   display: flex;
   padding: 48px;
   flex-wrap: wrap;
+  width: 1300px;
+  min-width: 1000px;
   gap: 20px;
 }
 
@@ -71,7 +73,7 @@ ul {
 }
 
 li {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 a {

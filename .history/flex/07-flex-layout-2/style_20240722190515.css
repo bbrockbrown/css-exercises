@@ -36,6 +36,8 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
   flex-shrink: 0;
   padding: 16px;
 }
@@ -44,6 +46,8 @@ body {
   display: flex;
   padding: 48px;
   flex-wrap: wrap;
+  width: 1300px;
+  min-width: 1000px;
   gap: 20px;
 }
 
@@ -71,7 +75,7 @@ ul {
 }
 
 li {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 a {
